@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(213, 210, 210);
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 15px
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: large;
+    padding: 33px 0;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color:black
+
+}
+
+.main {
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+.infocontainer {
+    background-color: beige;
+    height: 68vh;
+    width: 90vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.hello {
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 10px;
+}
+
+.about {
+    font-size: 70px;
+    margin-left: 10px;
+}
+.bio{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 10px;
+
+}
+.z1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+    background-color: rgb(248, 162, 162);
+    color: black;
+    margin-left: 10px;
+
+}
+.z4{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Libre Baskerville', serif;
+    background-color: rgb(248, 162, 162);
+    margin-left: 10px;
+
+}
+.z7{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Libre Baskerville', serif;
+    background-color: rgb(248, 162, 162);
+    margin-left: 10px;
+
+}
+.z9{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Libre Baskerville', serif;
+    background-color: rgb(248, 162, 162);
+    margin-left: 10px;
+
+}
+.z2{
+    font-size: 35px;
+    background-color: rgb(249, 195, 195);
+    margin-left: 10px;
+
+}
+.z3{
+    font-size: 35px;
+    background-color: rgb(249, 195, 195);
+    margin-left: 10px;
+
+}
+.z5{
+    font-size: 35px;
+    background-color: rgb(249, 195, 195);
+    margin-left: 10px;
+
+}
+.z6{
+    font-size: 35px;
+    background-color: rgb(249, 195, 195);
+    margin-left: 10px;
+
+}
+.z8{
+    font-size: 35px;
+    background-color: rgb(249, 195, 195);
+    margin-left: 10px;
+
+}
+.z10{
+    font-size: 35px;
+    background-color: rgb(249, 195, 195);
+    margin-left: 10px;
+
+}
+.h3{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.h4{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+
+}
+.h5{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+
+}
+.h6{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+
+}
+.h7{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+
+}
+.h8{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+
+}
+.buttons{
+    margin-top: 30px;
+}
+
+.btn {
+    
+    padding: 7px;
+    border-radius: 25px;
+    color: white;
+    background: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-inline: 6px;
+    cursor: pointer;
+}
+.btn-sm{
+ font-size: 8px;
+ padding: 7px 13px;
+ margin: 10px 0;
+}
+.btn:hover{
+    color: white;
+    background-color: dodgerblue;
+
+}
+
+.devPic img {
+    height: 42vh;
+    width: 20vw;
+    margin-top: 90px;
+    margin-right: 20px;
+
+
+}
+.contactform {
+    font-family: 'Source Code Pro', monospace;
+    padding: 0 34px;
+    padding-top: 144px;
+  
+}
+.contactform h1{
+    font-family: 'PT Serif', serif;
+    text-align: center;
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp
+{
+    font-size: 12px;
+    color: red;
+    margin: 0 5px;
+    padding: 3px 0 0;
+}
+.form-check{
+ flex-direction: row;
+}
+.form-check-input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogItem {
+    margin: 20px;
+    font-family: 'PT Serif', serif;
+
+
+}
+h1{
+    font-family: 'PT Serif', serif;
+    margin: 23px;
+
+}
+p{
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 20px;
+
+}
+.intro h2{
+    font-family: 'Source Code Pro', monospace;
+    margin:20px;
+    font-size: 40px;
+    background-color: rgba(221, 232, 241, 0.912);
+}
+.intro p{
+    font-family: 'PT Serif', serif;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+    font-size: 25px;
+}
+.skillItem{
+    display: flex;
+    font-size: 40px;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+}
+.t1{
+    width: 40px;
+}
+.t2{
+    width: 10px;
+}
+.t3{
+    width: 75px;
+}
+.t4{
+    width: 100px;
+}
+.t5{
+    width: 40px;
+}
